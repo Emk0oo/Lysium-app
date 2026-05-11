@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\dev\")",
+      "Bash(mysql:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
