@@ -155,9 +155,17 @@ const handleSubmit = async () => {
 .bg-image {
   position: fixed;
   inset: 0;
-  background-image: url('@/assets/images/background/background_home.avif');
+  background-image: url('@/assets/images/background/background_home_sign.webp');
   background-size: cover;
   background-position: center center;
+}
+
+.bg-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%);
+  pointer-events: none;
 }
 
 .auth-header {
